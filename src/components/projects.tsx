@@ -4,7 +4,7 @@ import React from 'react';
 const Projects: React.FC = () => {
   return (
     <section id="projects" className="bg-white py-16">
-      <div className="max-[500px]:pl-1rem max-w-100rem max-[500px]:pr-1rem mx-auto">
+      <div className="max-[500px]:pl-1rem max-w-70rem max-[500px]:pr-1rem mx-auto">
         <h2 className="text-3xl font-bold mb-8 max-[500px]:ml-1rem">Projects</h2>
         <ProjectCard 
          title="Fundvest"
@@ -22,9 +22,9 @@ const Projects: React.FC = () => {
          link="https://g0web.netlify.app/"
         />
          <ProjectCard 
-         title="Commit Viewer App"
-         description="This app allows you to to search for users commit throughout github. Although it isn't fully responsive"
-         link="https://commit-viewer-app.netlify.app/"
+         title="Parchost"
+         description="This is a photocopy of the early parchost web app i copied all so as to improve my responsive skills when i was learning"
+         link="https://parchost.netlify.app/"
         />
          <ProjectCard 
          title="Image Gallery"

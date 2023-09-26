@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="bg-white py-16">
-      <div className="max-[500px]:pr-1rem max-[500px]:pl-1rem max-w-100rem mx-auto">
+      <div className="max-[500px]:pr-1rem max-[500px]:pl-1rem max-w-70rem mx-auto">
         <h2 className="text-3xl font-bold mb-8 max-[500px]:ml-1rem">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 w-[500px]:gap-2.2">
           <motion.section
