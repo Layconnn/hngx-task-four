@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
          <ProjectCard 
          title="Image Gallery"
          description="This app Allows users to login with a specific Email and Password, then you get to see the Gallery with a drag'n'drop"
-         link="https://hngx-org.netlify.app/"
+         link="https://hngx-task-three.netlify.app/"
         />
       </div>
     </section>
